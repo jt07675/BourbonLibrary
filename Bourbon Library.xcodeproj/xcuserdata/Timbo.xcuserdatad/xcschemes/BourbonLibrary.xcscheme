@@ -17,7 +17,7 @@
                BlueprintIdentifier = "42E05C741DE26D1600B24B7E"
                BuildableName = "BourbonLibrary.app"
                BlueprintName = "BourbonLibrary"
-               ReferencedContainer = "container:BourbonLibrary.xcodeproj">
+               ReferencedContainer = "container:Bourbon Library.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "42E05C8B1DE26D1600B24B7E"
                BuildableName = "BourbonLibraryTests.xctest"
                BlueprintName = "BourbonLibraryTests"
-               ReferencedContainer = "container:BourbonLibrary.xcodeproj">
+               ReferencedContainer = "container:Bourbon Library.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "42E05C961DE26D1600B24B7E"
                BuildableName = "BourbonLibraryUITests.xctest"
                BlueprintName = "BourbonLibraryUITests"
-               ReferencedContainer = "container:BourbonLibrary.xcodeproj">
+               ReferencedContainer = "container:Bourbon Library.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,7 +55,7 @@
             BlueprintIdentifier = "42E05C741DE26D1600B24B7E"
             BuildableName = "BourbonLibrary.app"
             BlueprintName = "BourbonLibrary"
-            ReferencedContainer = "container:BourbonLibrary.xcodeproj">
+            ReferencedContainer = "container:Bourbon Library.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -78,7 +78,7 @@
             BlueprintIdentifier = "42E05C741DE26D1600B24B7E"
             BuildableName = "BourbonLibrary.app"
             BlueprintName = "BourbonLibrary"
-            ReferencedContainer = "container:BourbonLibrary.xcodeproj">
+            ReferencedContainer = "container:Bourbon Library.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -97,7 +97,7 @@
             BlueprintIdentifier = "42E05C741DE26D1600B24B7E"
             BuildableName = "BourbonLibrary.app"
             BlueprintName = "BourbonLibrary"
-            ReferencedContainer = "container:BourbonLibrary.xcodeproj">
+            ReferencedContainer = "container:Bourbon Library.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4264AF861DEBABF400B9301B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4264AF851DEBABF400B9301B /* Assets.xcassets */; };
+		42C5B7EE1DEBA84C007CEF02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42E05C841DE26D1600B24B7E /* LaunchScreen.storyboard */; };
 		42E05C791DE26D1600B24B7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E05C781DE26D1600B24B7E /* AppDelegate.swift */; };
 		42E05C7B1DE26D1600B24B7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E05C7A1DE26D1600B24B7E /* ViewController.swift */; };
 		42E05C7E1DE26D1600B24B7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42E05C7C1DE26D1600B24B7E /* Main.storyboard */; };
 		42E05C811DE26D1600B24B7E /* BourbonLibrary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42E05C7F1DE26D1600B24B7E /* BourbonLibrary.xcdatamodeld */; };
-		42E05C831DE26D1600B24B7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42E05C821DE26D1600B24B7E /* Assets.xcassets */; };
-		42E05C861DE26D1600B24B7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42E05C841DE26D1600B24B7E /* LaunchScreen.storyboard */; };
 		42E05C911DE26D1600B24B7E /* BourbonLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E05C901DE26D1600B24B7E /* BourbonLibraryTests.swift */; };
 		42E05C9C1DE26D1600B24B7E /* BourbonLibraryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E05C9B1DE26D1600B24B7E /* BourbonLibraryUITests.swift */; };
 /* End PBXBuildFile section */
@@ -35,12 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4264AF851DEBABF400B9301B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = BourbonLibrary/Assets.xcassets; sourceTree = "<group>"; };
 		42E05C751DE26D1600B24B7E /* BourbonLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BourbonLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E05C781DE26D1600B24B7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42E05C7A1DE26D1600B24B7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		42E05C7D1DE26D1600B24B7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42E05C801DE26D1600B24B7E /* BourbonLibrary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BourbonLibrary.xcdatamodel; sourceTree = "<group>"; };
-		42E05C821DE26D1600B24B7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42E05C851DE26D1600B24B7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42E05C871DE26D1600B24B7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42E05C8C1DE26D1600B24B7E /* BourbonLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BourbonLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +79,7 @@
 		42E05C6C1DE26D1600B24B7E = {
 			isa = PBXGroup;
 			children = (
+				4264AF851DEBABF400B9301B /* Assets.xcassets */,
 				42E05C771DE26D1600B24B7E /* BourbonLibrary */,
 				42E05C8F1DE26D1600B24B7E /* BourbonLibraryTests */,
 				42E05C9A1DE26D1600B24B7E /* BourbonLibraryUITests */,
@@ -102,7 +103,6 @@
 				42E05C781DE26D1600B24B7E /* AppDelegate.swift */,
 				42E05C7A1DE26D1600B24B7E /* ViewController.swift */,
 				42E05C7C1DE26D1600B24B7E /* Main.storyboard */,
-				42E05C821DE26D1600B24B7E /* Assets.xcassets */,
 				42E05C841DE26D1600B24B7E /* LaunchScreen.storyboard */,
 				42E05C871DE26D1600B24B7E /* Info.plist */,
 				42E05C7F1DE26D1600B24B7E /* BourbonLibrary.xcdatamodeld */,
@@ -196,6 +196,7 @@
 				TargetAttributes = {
 					42E05C741DE26D1600B24B7E = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ZDV5DER84L;
 						ProvisioningStyle = Automatic;
 					};
 					42E05C8B1DE26D1600B24B7E = {
@@ -210,7 +211,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 42E05C701DE26D1600B24B7E /* Build configuration list for PBXProject "BourbonLibrary" */;
+			buildConfigurationList = 42E05C701DE26D1600B24B7E /* Build configuration list for PBXProject "Bourbon Library" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -235,8 +236,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42E05C861DE26D1600B24B7E /* LaunchScreen.storyboard in Resources */,
-				42E05C831DE26D1600B24B7E /* Assets.xcassets in Resources */,
+				42C5B7EE1DEBA84C007CEF02 /* LaunchScreen.storyboard in Resources */,
+				4264AF861DEBABF400B9301B /* Assets.xcassets in Resources */,
 				42E05C7E1DE26D1600B24B7E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +415,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = ZDV5DER84L;
 				INFOPLIST_FILE = BourbonLibrary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = timbo.BourbonLibrary;
@@ -426,6 +429,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = ZDV5DER84L;
 				INFOPLIST_FILE = BourbonLibrary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = timbo.BourbonLibrary;
@@ -491,7 +496,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		42E05C701DE26D1600B24B7E /* Build configuration list for PBXProject "BourbonLibrary" */ = {
+		42E05C701DE26D1600B24B7E /* Build configuration list for PBXProject "Bourbon Library" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				42E05C9E1DE26D1600B24B7E /* Debug */,
@@ -507,6 +512,7 @@
 				42E05CA21DE26D1600B24B7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42E05CA31DE26D1600B24B7E /* Build configuration list for PBXNativeTarget "BourbonLibraryTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +521,7 @@
 				42E05CA51DE26D1600B24B7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42E05CA61DE26D1600B24B7E /* Build configuration list for PBXNativeTarget "BourbonLibraryUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +530,7 @@
 				42E05CA81DE26D1600B24B7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
