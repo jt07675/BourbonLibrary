@@ -119,10 +119,10 @@
             </objects>
             <point key="canvasLocation" x="-367.19999999999999" y="1913.793103448276"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign In Landing-->
         <scene sceneID="2O9-0k-76N">
             <objects>
-                <viewController id="oiN-u6-867" sceneMemberID="viewController">
+                <viewController title="Sign In Landing" id="oiN-u6-867" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Amd-Gl-ABb"/>
                         <viewControllerLayoutGuide type="bottom" id="c5P-9J-bkn"/>
@@ -225,20 +225,18 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="adu-mF-L5h">
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="boolean" keyPath="" value="YES"/>
-                        </userDefinedRuntimeAttributes>
+                    <navigationItem key="navigationItem" id="HjG-fH-uPF">
+                        <barButtonItem key="backBarButtonItem" title="    " id="jgl-9h-sqy"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ju4-ak-7bC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="580" y="-175.86206896551727"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign In-->
         <scene sceneID="Gn1-qK-hM1">
             <objects>
-                <viewController id="yJw-3j-XvM" sceneMemberID="viewController">
+                <viewController title="Sign In" id="yJw-3j-XvM" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rue-xM-3Nx"/>
                         <viewControllerLayoutGuide type="bottom" id="LDg-dE-mEm"/>
@@ -286,15 +284,16 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wTX-l9-pPC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1740" y="-439.43028485757122"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign Up-->
         <scene sceneID="Wzp-63-YVH">
             <objects>
-                <viewController id="xw4-Hl-0fw" sceneMemberID="viewController">
+                <viewController title="Sign Up" id="xw4-Hl-0fw" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3Pw-85-Kuy"/>
                         <viewControllerLayoutGuide type="bottom" id="rF0-IY-dKy"/>
@@ -342,6 +341,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0nU-RE-ajr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -370,6 +370,7 @@
         <!--Sign In-->
         <scene sceneID="bOu-IV-vH8">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XEd-BR-p3h" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TbK-28-0iQ" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Sign In" id="tDW-cf-PuG"/>
                     <toolbarItems/>
@@ -389,7 +390,6 @@
                         <segue destination="oiN-u6-867" kind="relationship" relationship="rootViewController" id="7ob-tv-DTd"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XEd-BR-p3h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-359.19999999999999" y="-175.86206896551727"/>
         </scene>
