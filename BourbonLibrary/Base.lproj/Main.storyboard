@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wtX-8U-Js7">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wtX-8U-Js7">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -122,7 +122,7 @@
         <!--Sign In Landing-->
         <scene sceneID="2O9-0k-76N">
             <objects>
-                <viewController title="Sign In Landing" id="oiN-u6-867" sceneMemberID="viewController">
+                <viewController title="Sign In Landing" id="oiN-u6-867" customClass="SignInLandingViewController" customModule="BourbonLibrary" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Amd-Gl-ABb"/>
                         <viewControllerLayoutGuide type="bottom" id="c5P-9J-bkn"/>
@@ -165,9 +165,6 @@
                                     </fragment>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="Helvetica Neue Thin"/>
-                                </userDefinedRuntimeAttributes>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gNm-l7-tkg">
                                 <rect key="frame" x="50" y="302" width="275" height="40"/>
@@ -209,11 +206,11 @@
                                 <rect key="frame" x="-10" y="535" width="490" height="128"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y6V-wm-N8e">
-                                <rect key="frame" x="72" y="418" width="231" height="42"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y6V-wm-N8e">
+                                <rect key="frame" x="50" y="421" width="275" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="By joining Bourbon Library, you agree to our Terms of Service and Privacy Policy">
+                                    <fragment content="By joining Bourbon Library, you agree to our">
                                         <attributes>
                                             <font key="NSFont" size="11" name=".AppleSystemUIFont"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" tighteningFactorForTruncation="0.0"/>
@@ -222,6 +219,55 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ixa-Dz-I1l">
+                                <rect key="frame" x="177" y="441" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="and">
+                                        <attributes>
+                                            <font key="NSFont" size="11" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bhS-VV-aof">
+                                <rect key="frame" x="193" y="441" width="90" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Privacy Policy">
+                                            <attributes>
+                                                <color key="NSColor" red="0.36716040968894958" green="0.25983500480651855" blue="0.14386337995529175" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="11" name=".AppleSystemUIFont"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="IFs-vT-Bwn" kind="show" id="VQZ-Xy-kb1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dLa-LC-OJv">
+                                <rect key="frame" x="88" y="441" width="88" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Terms of Service">
+                                            <attributes>
+                                                <color key="NSColor" red="0.36716040968894958" green="0.25983500480651855" blue="0.14386337995529175" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="11" name=".SFNSText"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="Q9p-61-TSd" kind="show" id="BmU-SF-ry2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -236,7 +282,7 @@
         <!--Sign In-->
         <scene sceneID="Gn1-qK-hM1">
             <objects>
-                <viewController title="Sign In" id="yJw-3j-XvM" sceneMemberID="viewController">
+                <viewController title="Sign In" id="yJw-3j-XvM" customClass="SignInViewController" customModule="BourbonLibrary" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rue-xM-3Nx"/>
                         <viewControllerLayoutGuide type="bottom" id="LDg-dE-mEm"/>
@@ -293,7 +339,7 @@
         <!--Sign Up-->
         <scene sceneID="Wzp-63-YVH">
             <objects>
-                <viewController title="Sign Up" id="xw4-Hl-0fw" sceneMemberID="viewController">
+                <viewController title="Sign Up" id="xw4-Hl-0fw" customClass="SignUpViewController" customModule="BourbonLibrary" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3Pw-85-Kuy"/>
                         <viewControllerLayoutGuide type="bottom" id="rF0-IY-dKy"/>
@@ -345,7 +391,75 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0nU-RE-ajr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1732" y="296.40179910044981"/>
+            <point key="canvasLocation" x="1732" y="219"/>
+        </scene>
+        <!--Terms of Service-->
+        <scene sceneID="7Ra-bd-QID">
+            <objects>
+                <viewController title="Terms of Service" id="Q9p-61-TSd" customClass="TermsOfServiceViewController" customModule="BourbonLibrary" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ocF-sb-04s"/>
+                        <viewControllerLayoutGuide type="bottom" id="AQu-GJ-W9Y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GGD-Rp-DQO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="olb-ow-lGz">
+                                <rect key="frame" x="102" y="72" width="171" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Terms of Service">
+                                        <attributes>
+                                            <font key="NSFont" size="24" name="HelveticaNeue-Thin"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ego-j6-0a8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1732" y="966.56671664167925"/>
+        </scene>
+        <!--Privacy Policy-->
+        <scene sceneID="HDF-vN-hcM">
+            <objects>
+                <viewController title="Privacy Policy" id="IFs-vT-Bwn" customClass="PrivacyPolicyViewController" customModule="BourbonLibrary" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="O1e-xv-YTV"/>
+                        <viewControllerLayoutGuide type="bottom" id="3EX-eq-39r"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Sip-ks-Vze">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CjB-4w-DfT">
+                                <rect key="frame" x="102" y="72" width="171" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Privacy Policy">
+                                        <attributes>
+                                            <font key="NSFont" size="24" name="HelveticaNeue-Thin"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rqm-A4-xeC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2401" y="969"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Jc9-Ov-0G6">
@@ -370,7 +484,6 @@
         <!--Sign In-->
         <scene sceneID="bOu-IV-vH8">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XEd-BR-p3h" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TbK-28-0iQ" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Sign In" id="tDW-cf-PuG"/>
                     <toolbarItems/>
@@ -390,6 +503,7 @@
                         <segue destination="oiN-u6-867" kind="relationship" relationship="rootViewController" id="7ob-tv-DTd"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XEd-BR-p3h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-359.19999999999999" y="-175.86206896551727"/>
         </scene>

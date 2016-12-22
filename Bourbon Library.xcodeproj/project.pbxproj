@@ -8,8 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		4264AF861DEBABF400B9301B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4264AF851DEBABF400B9301B /* Assets.xcassets */; };
+		426BC5D01E0BB50400DB178B /* TermsOfServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426BC5CF1E0BB50400DB178B /* TermsOfServiceViewController.swift */; };
+		426BC5D21E0BB52500DB178B /* PrivacyPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426BC5D11E0BB52500DB178B /* PrivacyPolicyViewController.swift */; };
 		426E92391DFBD69200D9F213 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 426E92381DFBD69200D9F213 /* Images.xcassets */; };
 		42C5B7EE1DEBA84C007CEF02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42E05C841DE26D1600B24B7E /* LaunchScreen.storyboard */; };
+		42C6E5691E0BA62100A93A28 /* SignInLandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C6E5681E0BA62100A93A28 /* SignInLandingViewController.swift */; };
+		42C6E56B1E0BA74F00A93A28 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C6E56A1E0BA74F00A93A28 /* SignInViewController.swift */; };
+		42C6E56D1E0BA81100A93A28 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C6E56C1E0BA81100A93A28 /* SignUpViewController.swift */; };
 		42E05C791DE26D1600B24B7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E05C781DE26D1600B24B7E /* AppDelegate.swift */; };
 		42E05C7B1DE26D1600B24B7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E05C7A1DE26D1600B24B7E /* ViewController.swift */; };
 		42E05C7E1DE26D1600B24B7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42E05C7C1DE26D1600B24B7E /* Main.storyboard */; };
@@ -37,7 +42,12 @@
 
 /* Begin PBXFileReference section */
 		4264AF851DEBABF400B9301B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = BourbonLibrary/Assets.xcassets; sourceTree = "<group>"; };
+		426BC5CF1E0BB50400DB178B /* TermsOfServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsOfServiceViewController.swift; sourceTree = "<group>"; };
+		426BC5D11E0BB52500DB178B /* PrivacyPolicyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyViewController.swift; sourceTree = "<group>"; };
 		426E92381DFBD69200D9F213 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		42C6E5681E0BA62100A93A28 /* SignInLandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInLandingViewController.swift; sourceTree = "<group>"; };
+		42C6E56A1E0BA74F00A93A28 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		42C6E56C1E0BA81100A93A28 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		42E05C751DE26D1600B24B7E /* BourbonLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BourbonLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E05C781DE26D1600B24B7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42E05C7A1DE26D1600B24B7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +119,11 @@
 				42E05C841DE26D1600B24B7E /* LaunchScreen.storyboard */,
 				42E05C871DE26D1600B24B7E /* Info.plist */,
 				42E05C7F1DE26D1600B24B7E /* BourbonLibrary.xcdatamodeld */,
+				42C6E5681E0BA62100A93A28 /* SignInLandingViewController.swift */,
+				42C6E56A1E0BA74F00A93A28 /* SignInViewController.swift */,
+				42C6E56C1E0BA81100A93A28 /* SignUpViewController.swift */,
+				426BC5CF1E0BB50400DB178B /* TermsOfServiceViewController.swift */,
+				426BC5D11E0BB52500DB178B /* PrivacyPolicyViewController.swift */,
 			);
 			path = BourbonLibrary;
 			sourceTree = "<group>";
@@ -267,8 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42C6E56D1E0BA81100A93A28 /* SignUpViewController.swift in Sources */,
+				42C6E5691E0BA62100A93A28 /* SignInLandingViewController.swift in Sources */,
 				42E05C7B1DE26D1600B24B7E /* ViewController.swift in Sources */,
+				426BC5D21E0BB52500DB178B /* PrivacyPolicyViewController.swift in Sources */,
 				42E05C811DE26D1600B24B7E /* BourbonLibrary.xcdatamodeld in Sources */,
+				426BC5D01E0BB50400DB178B /* TermsOfServiceViewController.swift in Sources */,
+				42C6E56B1E0BA74F00A93A28 /* SignInViewController.swift in Sources */,
 				42E05C791DE26D1600B24B7E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
