@@ -21,6 +21,9 @@
 		42E05C811DE26D1600B24B7E /* BourbonLibrary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42E05C7F1DE26D1600B24B7E /* BourbonLibrary.xcdatamodeld */; };
 		42E05C911DE26D1600B24B7E /* BourbonLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E05C901DE26D1600B24B7E /* BourbonLibraryTests.swift */; };
 		42E05C9C1DE26D1600B24B7E /* BourbonLibraryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E05C9B1DE26D1600B24B7E /* BourbonLibraryUITests.swift */; };
+		DC75AE861EADCD0A00EBF8AC /* MobileCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC75AE831EADCD0A00EBF8AC /* MobileCenter.framework */; };
+		DC75AE871EADCD0A00EBF8AC /* MobileCenterAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC75AE841EADCD0A00EBF8AC /* MobileCenterAnalytics.framework */; };
+		DC75AE881EADCD0A00EBF8AC /* MobileCenterCrashes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC75AE851EADCD0A00EBF8AC /* MobileCenterCrashes.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,9 @@
 		42E05C971DE26D1600B24B7E /* BourbonLibraryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BourbonLibraryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E05C9B1DE26D1600B24B7E /* BourbonLibraryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BourbonLibraryUITests.swift; sourceTree = "<group>"; };
 		42E05C9D1DE26D1600B24B7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC75AE831EADCD0A00EBF8AC /* MobileCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileCenter.framework; sourceTree = "<group>"; };
+		DC75AE841EADCD0A00EBF8AC /* MobileCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileCenterAnalytics.framework; sourceTree = "<group>"; };
+		DC75AE851EADCD0A00EBF8AC /* MobileCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileCenterCrashes.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC75AE871EADCD0A00EBF8AC /* MobileCenterAnalytics.framework in Frameworks */,
+				DC75AE881EADCD0A00EBF8AC /* MobileCenterCrashes.framework in Frameworks */,
+				DC75AE861EADCD0A00EBF8AC /* MobileCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +106,7 @@
 				42E05C8F1DE26D1600B24B7E /* BourbonLibraryTests */,
 				42E05C9A1DE26D1600B24B7E /* BourbonLibraryUITests */,
 				42E05C761DE26D1600B24B7E /* Products */,
+				DC75AE821EADCCE900EBF8AC /* Vendor */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,6 +154,16 @@
 				42E05C9D1DE26D1600B24B7E /* Info.plist */,
 			);
 			path = BourbonLibraryUITests;
+			sourceTree = "<group>";
+		};
+		DC75AE821EADCCE900EBF8AC /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				DC75AE831EADCD0A00EBF8AC /* MobileCenter.framework */,
+				DC75AE841EADCD0A00EBF8AC /* MobileCenterAnalytics.framework */,
+				DC75AE851EADCD0A00EBF8AC /* MobileCenterCrashes.framework */,
+			);
+			name = Vendor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -443,6 +463,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = ZDV5DER84L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BourbonLibrary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -458,6 +482,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = ZDV5DER84L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BourbonLibrary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

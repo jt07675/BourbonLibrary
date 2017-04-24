@@ -8,6 +8,9 @@
 
 import UIKit
 import CoreData
+import MobileCenter
+import MobileCenterAnalytics
+import MobileCenterCrashes
 
 @available(iOS 10.0, *)
 @UIApplicationMain
@@ -17,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        MSMobileCenter.start("bbfda3ad-386d-44d3-a233-99662d2d19e0", withServices: [MSAnalytics.self, MSCrashes.self])
         // Override point for customization after application launch.
         return true
     }
