@@ -235,7 +235,7 @@
 					42E05C741DE26D1600B24B7E = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = NR6YM7SHX9;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					42E05C8B1DE26D1600B24B7E = {
 						CreatedOnToolsVersion = 8.1;
@@ -470,8 +470,10 @@
 				INFOPLIST_FILE = BourbonLibrary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = timbo.BourbonLibrary;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bourbonlibrary.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1d601b8d-5004-479f-98d8-9bbcaec71358";
+				PROVISIONING_PROFILE_SPECIFIER = "Bourbon Library Beta";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -489,8 +491,10 @@
 				INFOPLIST_FILE = BourbonLibrary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = timbo.BourbonLibrary;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bourbonlibrary.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1d601b8d-5004-479f-98d8-9bbcaec71358";
+				PROVISIONING_PROFILE_SPECIFIER = "Bourbon Library Beta";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
