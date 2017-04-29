@@ -387,8 +387,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jason Timbo (85Q3U9MA73)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jason Timbo (85Q3U9MA73)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: jason@mapletonhill.net (TR47FE94UF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: jason@mapletonhill.net (TR47FE94UF)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -438,8 +438,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jason Timbo (85Q3U9MA73)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jason Timbo (85Q3U9MA73)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: jason@mapletonhill.net (TR47FE94UF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: jason@mapletonhill.net (TR47FE94UF)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -465,8 +465,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jason Timbo (85Q3U9MA73)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jason Timbo (85Q3U9MA73)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: jason@mapletonhill.net (TR47FE94UF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: jason@mapletonhill.net (TR47FE94UF)";
 				DEVELOPMENT_TEAM = NR6YM7SHX9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -488,8 +488,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jason Timbo (85Q3U9MA73)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jason Timbo (85Q3U9MA73)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: jason@mapletonhill.net (TR47FE94UF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: jason@mapletonhill.net (TR47FE94UF)";
 				DEVELOPMENT_TEAM = NR6YM7SHX9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -511,7 +511,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jason Timbo (85Q3U9MA73)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: jason@mapletonhill.net (TR47FE94UF)";
 				DEVELOPMENT_TEAM = NR6YM7SHX9;
 				INFOPLIST_FILE = BourbonLibraryTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -527,7 +527,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jason Timbo (85Q3U9MA73)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: jason@mapletonhill.net (TR47FE94UF)";
 				DEVELOPMENT_TEAM = NR6YM7SHX9;
 				INFOPLIST_FILE = BourbonLibraryTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
