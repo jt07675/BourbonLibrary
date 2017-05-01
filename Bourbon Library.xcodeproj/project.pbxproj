@@ -477,7 +477,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bourbonlibrary.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1d601b8d-5004-479f-98d8-9bbcaec71358";
+				PROVISIONING_PROFILE = "8e358aa4-7f1a-4339-96c6-6fd112cba10d";
 				PROVISIONING_PROFILE_SPECIFIER = "Bourbon Library Beta";
 				SWIFT_VERSION = 3.0;
 			};
@@ -500,7 +500,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bourbonlibrary.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1d601b8d-5004-479f-98d8-9bbcaec71358";
+				PROVISIONING_PROFILE = "8e358aa4-7f1a-4339-96c6-6fd112cba10d";
 				PROVISIONING_PROFILE_SPECIFIER = "Bourbon Library Beta";
 				SWIFT_VERSION = 3.0;
 			};
