@@ -240,12 +240,13 @@
 					42E05C8B1DE26D1600B24B7E = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = NR6YM7SHX9;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						TestTargetID = 42E05C741DE26D1600B24B7E;
 					};
 					42E05C961DE26D1600B24B7E = {
 						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = NR6YM7SHX9;
+						ProvisioningStyle = Manual;
 						TestTargetID = 42E05C741DE26D1600B24B7E;
 					};
 				};
@@ -465,8 +466,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jason Timbo (85Q3U9MA73)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jason Timbo (85Q3U9MA73)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mapleton Hill (NR6YM7SHX9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mapleton Hill (NR6YM7SHX9)";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = NR6YM7SHX9;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -476,10 +477,10 @@
 				INFOPLIST_FILE = BourbonLibrary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bourbonlibrary.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bourbonlibrary.app.adHoc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "8e358aa4-7f1a-4339-96c6-6fd112cba10d";
-				PROVISIONING_PROFILE_SPECIFIER = "Bourbon Library Beta";
+				PROVISIONING_PROFILE = "7337475d-5959-44d7-8d3a-2cc3998008bc";
+				PROVISIONING_PROFILE_SPECIFIER = "Bourbon Library Ad Hoc";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -489,8 +490,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jason Timbo (85Q3U9MA73)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jason Timbo (85Q3U9MA73)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mapleton Hill (NR6YM7SHX9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mapleton Hill (NR6YM7SHX9)";
 				DEVELOPMENT_TEAM = NR6YM7SHX9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -499,10 +500,10 @@
 				INFOPLIST_FILE = BourbonLibrary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bourbonlibrary.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bourbonlibrary.app.adHoc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "8e358aa4-7f1a-4339-96c6-6fd112cba10d";
-				PROVISIONING_PROFILE_SPECIFIER = "Bourbon Library Beta";
+				PROVISIONING_PROFILE = "7337475d-5959-44d7-8d3a-2cc3998008bc";
+				PROVISIONING_PROFILE_SPECIFIER = "Bourbon Library Ad Hoc";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -512,12 +513,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jason Timbo (85Q3U9MA73)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mapleton Hill (NR6YM7SHX9)";
 				DEVELOPMENT_TEAM = NR6YM7SHX9;
 				INFOPLIST_FILE = BourbonLibraryTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = timbo.BourbonLibraryTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BourbonLibrary.app/BourbonLibrary";
 			};
@@ -528,12 +530,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jason Timbo (85Q3U9MA73)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mapleton Hill (NR6YM7SHX9)";
 				DEVELOPMENT_TEAM = NR6YM7SHX9;
 				INFOPLIST_FILE = BourbonLibraryTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = timbo.BourbonLibraryTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BourbonLibrary.app/BourbonLibrary";
 			};
@@ -543,10 +546,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mapleton Hill (NR6YM7SHX9)";
+				DEVELOPMENT_TEAM = NR6YM7SHX9;
 				INFOPLIST_FILE = BourbonLibraryUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = timbo.BourbonLibraryUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bourbonlibrary.app.adHoc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e3a3f9da-c416-4a26-880e-7c218877d12a";
+				PROVISIONING_PROFILE_SPECIFIER = "Bourbon Library Ad Hoc";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = BourbonLibrary;
 			};
@@ -556,10 +563,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mapleton Hill (NR6YM7SHX9)";
+				DEVELOPMENT_TEAM = NR6YM7SHX9;
 				INFOPLIST_FILE = BourbonLibraryUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = timbo.BourbonLibraryUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bourbonlibrary.app.adHoc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e3a3f9da-c416-4a26-880e-7c218877d12a";
+				PROVISIONING_PROFILE_SPECIFIER = "Bourbon Library Ad Hoc";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = BourbonLibrary;
 			};
