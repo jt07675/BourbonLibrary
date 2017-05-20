@@ -466,8 +466,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jason Timbo (85Q3U9MA73)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jason Timbo (85Q3U9MA73)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mapleton Hill (NR6YM7SHX9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mapleton Hill (NR6YM7SHX9)";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = NR6YM7SHX9;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -479,8 +479,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bourbonlibrary.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "360d98a6-2262-46a3-be34-3e61b9a6425f";
-				PROVISIONING_PROFILE_SPECIFIER = "Bourbon Library Beta";
+				PROVISIONING_PROFILE = "8cd93473-e5ec-4b09-bd63-5488efaddff4";
+				PROVISIONING_PROFILE_SPECIFIER = "Bourbon Library";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -513,8 +513,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jason Timbo (85Q3U9MA73)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jason Timbo (85Q3U9MA73)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEVELOPMENT_TEAM = NR6YM7SHX9;
 				INFOPLIST_FILE = BourbonLibraryTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -531,8 +531,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Mapleton Hill (NR6YM7SHX9)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mapleton Hill (NR6YM7SHX9)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEVELOPMENT_TEAM = NR6YM7SHX9;
 				INFOPLIST_FILE = BourbonLibraryTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
