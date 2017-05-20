@@ -479,7 +479,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bourbonlibrary.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "8cd93473-e5ec-4b09-bd63-5488efaddff4";
+				PROVISIONING_PROFILE = "23172737-e986-48e7-88b3-1351ac211b01";
 				PROVISIONING_PROFILE_SPECIFIER = "Bourbon Library";
 				SWIFT_VERSION = 3.0;
 			};
@@ -502,7 +502,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bourbonlibrary.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "8cd93473-e5ec-4b09-bd63-5488efaddff4";
+				PROVISIONING_PROFILE = "23172737-e986-48e7-88b3-1351ac211b01";
 				PROVISIONING_PROFILE_SPECIFIER = "Bourbon Library";
 				SWIFT_VERSION = 3.0;
 			};
@@ -554,7 +554,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bourbonlibrary.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "360d98a6-2262-46a3-be34-3e61b9a6425f";
+				PROVISIONING_PROFILE = "23172737-e986-48e7-88b3-1351ac211b01";
 				PROVISIONING_PROFILE_SPECIFIER = "Bourbon Library Beta";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = BourbonLibrary;
@@ -565,13 +565,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jason Timbo (85Q3U9MA73)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEVELOPMENT_TEAM = NR6YM7SHX9;
 				INFOPLIST_FILE = BourbonLibraryUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bourbonlibrary.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "360d98a6-2262-46a3-be34-3e61b9a6425f";
+				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "Bourbon Library Beta";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = BourbonLibrary;
