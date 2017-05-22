@@ -483,6 +483,7 @@
 				PROVISIONING_PROFILE = "1d601b8d-5004-479f-98d8-9bbcaec71358";
 				PROVISIONING_PROFILE_SPECIFIER = "Bourbon Library Beta";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -506,6 +507,7 @@
 				PROVISIONING_PROFILE = "23172737-e986-48e7-88b3-1351ac211b01";
 				PROVISIONING_PROFILE_SPECIFIER = "Bourbon Library";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
